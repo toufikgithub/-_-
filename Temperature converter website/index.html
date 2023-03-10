@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+   </div>
+   
+    <h1>Temperature Converter</h1>
+    <div class="container">
+      <div class="form-group">
+        <label for="celsius">Celsius</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius temperature">
+      </div>
+      <div class="form-group">
+        <label for="fahrenheit">Fahrenheit</label>
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit temperature">
+      </div>
+      <div class="form-group">
+        <label for="kelvin">Kelvin</label>
+        <input type="number" id="kelvin" placeholder="Enter Kelvin temperature">
+      </div>
+      <div class="form-group">
+        <button onclick="convertCelsiusToFahrenheit()">Convert Celsius to Fahrenheit</button>
+        <button onclick="convertFahrenheitToCelsius()">Convert Fahrenheit to Celsius</button>
+        <button onclick="convertCelsiusToKelvin()">Convert Celsius to Kelvin</button>
+        <button onclick="convertKelvinToCelsius()">Convert Kelvin to Celsius</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
